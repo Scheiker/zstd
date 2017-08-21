@@ -1,0 +1,11 @@
+zstd
+
+A Zstandard compressor tool, without dictionary support, that reads from stdin,
+writes to stdout, and only takes compression level as an argument.
+
+Example usage:
+	zstd -19 < file > file.zst
+	tar -c file | zstd > file.tar.zst
+	curl http://www.example.com | zstd -10 > example.html.zst
+
+Depends on libzstd.
