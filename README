@@ -9,3 +9,4 @@ Example usage:
 	curl http://www.example.com | zstd -10 > example.html.zst
 
 Depends on libzstd.
+https://www.github.com/facebook/zstd
